@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BitFit</string>
+    <string name="sad">Sad</string>
+    <string name="start_date">Period Start Date</string>
+    <string name="end_date">Period End Date</string>
+    <string name="feeling">How did you feel?</string>
+    <string name="neutral">neutral</string>
+    <string name="happy">happy</string>
+    <string name="stool">Stool</string>
+    <string name="pain">pain</string>
+    <string name="is_painful">Was it painful?</string>
+    <string name="select_date">Select Date</string>
+    <string name="period_length">Period Length (days):</string>
+</resources>
