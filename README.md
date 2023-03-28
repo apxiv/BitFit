@@ -31,9 +31,10 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='./app/src/main/res/drawable/period.gif' title='Period Tracker Walkthrough' width='270' height='570' alt='Period' />
-## Notes
+<img src='./app/src/main/res/drawable/orientation.gif' title='Period Tracker Walkthrough' width='270' height='570' alt='Period' />
 
-Storing dates in the database
+## Challenging Features
+- Storing dates in the database
 
 ## License
 
