@@ -11,6 +11,9 @@ interface CycleDao {
     @Query("SELECT * FROM cycle_table ORDER BY start_date DESC")
     fun getAll(): Flow<List<CycleEntity>>
 
+    @Query("SELECT COUNT(is_painful) FROM cycle_table WHERE is_painful=1")
+    fun getNumberOfPainfulDays(): Int
+
     @Insert
     fun insert(cycle: CycleEntity)
 

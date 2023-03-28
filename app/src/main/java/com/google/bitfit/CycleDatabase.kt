@@ -24,6 +24,6 @@ abstract class CycleDatabase: RoomDatabase() {
             Room.databaseBuilder(
                 context.applicationContext,
                 CycleDatabase::class.java, "Cycle-db"
-            ).build()
+            ).createFromAsset("database/Cycle-db.db").build()
     }
 }

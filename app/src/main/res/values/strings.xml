@@ -11,4 +11,5 @@
     <string name="is_painful">Was it painful?</string>
     <string name="select_date">Select Date</string>
     <string name="period_length">Period Length (days):</string>
+    <string name="painful_periods">Painful periods:  </string>
 </resources>

@@ -18,9 +18,13 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] **Create a UI for tracking averages and trends in metrics**
+- [X] **Create a UI for tracking averages and trends in metrics (find number of painful periods**
 - [X] **Improve and customize the user interface through styling and coloring**
 - [X] **Implement orientation responsivity**
+
+The following **additional** features are implemented:
+- [X] Items are sorted by period start date
+- [X] Database is pre-populated when the app is launched for the first time
 
 ## Video Walkthrough
 
@@ -28,6 +32,9 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+## Notes
+
+Storing dates in the database
 
 ## License
 

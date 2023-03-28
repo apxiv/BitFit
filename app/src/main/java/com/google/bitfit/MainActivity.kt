@@ -4,12 +4,15 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.TextView
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.bitfit.databinding.ActivityMainBinding
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class MainActivity : AppCompatActivity() {
     private lateinit var cycleRecyclerView: RecyclerView
@@ -35,6 +38,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         cycleRecyclerView.layoutManager = LinearLayoutManager(this)
+
+        val painfulDays: TextView = findViewById(R.id.painfulDays)
+        lifecycleScope.launch(Dispatchers.IO) {
+            val numberOfPainfulDays = (application as CycleApplication).db.cycleDao().getNumberOfPainfulDays()
+            withContext(Dispatchers.Main) {
+                painfulDays.text = numberOfPainfulDays.toString()
+            }
+        }
 
         val addFloatingActionButton = findViewById<FloatingActionButton>(R.id.button_add)
         addFloatingActionButton.setOnClickListener {
