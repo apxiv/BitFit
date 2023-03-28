@@ -30,8 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+<img src='./app/src/main/res/drawable/period.gif' title='Period Tracker Walkthrough' width='270' height='570' alt='Period' />
 ## Notes
 
 Storing dates in the database
