@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/track"
+        android:title="@string/track"
+        android:icon="@drawable/baseline_add_24" />
+
+    <item
+        android:id="@+id/analysis"
+        android:title="@string/analysis"
+        android:icon="@drawable/baseline_analytics_24" />
+
+    <item
+        android:id="@+id/notifications"
+        android:title="@string/notifications"
+        android:icon="@drawable/baseline_notifications_none_24" />
+</menu>

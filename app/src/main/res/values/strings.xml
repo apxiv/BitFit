@@ -12,4 +12,9 @@
     <string name="select_date">Select Date</string>
     <string name="period_length">Period Length (days):</string>
     <string name="painful_periods">Painful periods:  </string>
+    <string name="track">Track</string>
+    <string name="analysis">Analysis</string>
+    <string name="notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
