@@ -11,17 +11,12 @@ Time spent: **4** hours spent in total
 The following **required** functionality is completed:
 
 - [X] **Use at least 2 Fragments**
-- [ ] **Create a new dashboard fragment where users can see a summary of their entered data**
+- [X] **Create a new dashboard fragment where users can see a summary of their entered data**
 - [X] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
 
 The following **optional** features are implemented:
 
-- [ ] **Add a more advanced UI (e.g: Graphing) for tracking trends in metrics**
-- [ ] **Implement daily notifications to prompt users to fill in their data**
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
+- [X] **Add a more advanced UI (e.g: Graphing) for tracking trends in metrics**
 
 ## Video Walkthrough
 

@@ -26,7 +26,11 @@
             android:textStyle="bold"
             android:textColor="@color/text"
             android:textSize="24sp"/>
-
     </LinearLayout>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </FrameLayout>

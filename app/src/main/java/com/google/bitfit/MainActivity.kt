@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(ActivityMainBinding.inflate(layoutInflater).root)
         val fragmentTrack: Fragment = Track()
         val fragmentAnalysis: Fragment = Analysis()
-        // val fragmentNotification: Fragment = Notification()
+        val fragmentNotification: Fragment = Notification()
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)
 
         bottomNavigationView.setOnItemSelectedListener {item ->
@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.track -> fragment = fragmentTrack
                 R.id.analysis -> fragment = fragmentAnalysis
-                // R.id.analysis -> fragment = fragmentAnalysis
+                R.id.notifications -> fragment = fragmentNotification
             }
             replaceFragment(fragment)
             true
